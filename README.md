@@ -29,5 +29,7 @@ Associated Token Account:
 
 ```text
 claim_tokens CPI call
-Calculates vested amount based on elapsed time, Uses linear vesting: (total _ amount x time_etapsed) / vested totat_vesting_period and subtracts already withdrawn tokens to get claimable amount.
+Calculates vested amount based on elapsed time,
+Uses linear vesting: (total _ amount x time_etapsed) / vested totat_vesting_period
+and subtracts already withdrawn tokens to get claimable amount.
 ```
