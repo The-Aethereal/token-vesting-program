@@ -1,3 +1,4 @@
+```text
 VestingAccount (PDA: seed=[company_name])
     ├─→ owner: The company wallet (creates employees)
     ├─→ mint: The SPL token being vested
@@ -13,3 +14,4 @@ VestingAccount (PDA: seed=[company_name])
                                   ├─→ vesting_account: Parent company account
                                   ├─→ Vesting schedule params
                                   └─→ Claims tokens → Employee Token Account (ATA)
+```
