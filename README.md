@@ -15,3 +15,12 @@ VestingAccount (PDA: seed=[company_name])
                                   ├─→ Vesting schedule params
                                   └─→ Claims tokens → Employee Token Account (ATA)
 ```
+
+```text
+PDAs :
+    VestingAccount : Derived from company name
+    Treasury Token Account : Derived from "vesting_treasury" + company name
+    EmployeeAccount : Derived from "employee_vesting" + beneficiary + vesting_account
+Associated Token Account:
+    employee_token_account : Standard ATA for the employee's wallet, created automatically when claiming
+```
